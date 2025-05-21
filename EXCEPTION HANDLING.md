@@ -1,34 +1,36 @@
 # Exp.No:17  
 ## EXCEPTION HANDLING
 
----
-
 ### AIM  
-To create a Python program that prompts the user for a list of grades separated by commas, splits the string into individual grades, and uses exception handling to inform the user if the values they entered cannot be converted to integers.
 
----
+To create a Python program Placing msg as "You're out of list range" to avoid IndexError.
 
 ### ALGORITHM
 
 1. Begin the program.  
-2. Read a string `input_str` from the user using `input()`.  
-3. Split the input string using commas (`,`) to create a list of grades.  
-4. Use a `try` block to attempt converting each item in the grades list to an integer and store the result in `l1`.  
-5. If the conversion is successful, print the list `l1` containing the integer values.  
-6. If an error occurs during conversion (for example, if the input is not a valid number), catch the exception and print an error message: `"The grades you entered were in an invalid format."` along with the original grades list.  
-7. Terminate the program.
-
----
+2. Try to raise an IndexError with a custom message.
+3. Catch the IndexError exception using except.
+4. Print the message "You're out of list range" if the exception is raised.
+5. Terminate the program.
 
 ### PROGRAM
 
 ```
-Reg.No
-Name
-Add Your Code Here
+Reg.No : 212224230289
+Name: THARUN R
+
+try:
+    raise IndexError("Trying to access an element out of list's range")
+
+except IndexError:
+    print("You're out of list range")
 
 ```
 
 ### OUTPUT
 
+![image](https://github.com/user-attachments/assets/76d1fde2-ab2a-4c00-8948-3781d04e77fb)
+
 ### RESULT
+
+Thus the  Python program Placing msg as "You're out of list range" to avoid IndexError was succcessfully created.
