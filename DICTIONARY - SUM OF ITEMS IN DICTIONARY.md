@@ -17,8 +17,8 @@ To write a Python program to find sum of all items in a Dictionary .
 ### PROGRAM
 
 ```
-#Reg.No 212222220044
-#Name SHRUTHI S
+#Reg.No 212224230289
+#Name THARUN R
 
 my_dict = {'a': 100, 'b': 200, 'c': 300}
 
